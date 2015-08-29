@@ -1,16 +1,39 @@
+<!DOCTYPE html>
 <html>
-<style>
-</style>
+<head>
+	<title>
+		Ask
+	</title>
+</head>
 <body>
-<form>
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Desired Skills</h1>
+		</div>
+	</div>
+
 I want to ask this:
 <input type="text" size="30%" required><br>
-I want to chat with someone experienced in:<br>
-<input type="checkbox" name="option1">CSS/HTML<br>
-<input type="checkbox" name="option2">Graphic Design<br>
-<input type="checkbox" name="option3">Software Development<br>
-<input type="checkbox" name="option4">App Development<br>
-<input type="checkbox" name="option5">Big Data Analytics<br>
-<input type="submit" value="submit">
-</form>
-</body>
+
+	<div class="question">
+		<div class="container">
+			<h2>I want to chat with someone experienced in:</h2>
+		</div>
+	</div>
+
+	<div>
+		<ul class="columns" data-columns="2">
+			<input type="checkbox" name="skill" value="Skill 1"> Statistical Analysis and Data Mining<br>
+			<input type="checkbox" name="skill" value="Skill 2" checked="checked"> Integration Software<br>
+			<input type="checkbox" name="skill" value="Skill 3" checked="checked"> Network and Information Security<br>
+			<input type="checkbox" name="skill" value="Skill 4" checked="checked"> Algorithm Design<br>
+			<input type="checkbox" name="skill" value="Skill 5" checked="checked"> Mobile Development<br>
+			<input type="checkbox" name="skill" value="Skill 6" checked="checked"> Recruiting<br>
+			<input type="checkbox" name="skill" value="Skill 7" checked="checked"> Computer Graphics and Animation<br>
+			<input type="checkbox" name="skill" value="Skill 8" checked="checked"> Economics<br>
+			<input type="checkbox" name="skill" value="Skill 9" checked="checked"> Integrated Circuit Desing<br>
+			<input type="checkbox" name="skill" value="Skill 10" checked="checked"> Perl/Python/Ruby<br>
+		</ul>
+	</div>
+
+	<input type="submit" value="Match Me">
