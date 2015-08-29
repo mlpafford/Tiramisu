@@ -40,8 +40,13 @@ api_key: 75su266sk6aok8
 
 <body>
 <title>Tiramisu</title>
+<script type="in/Login"></script>
+<script type="text/javascript">    
+  function onLinkedInLoad() {        // Use a larger login icon. 
+     $('a[id*=li_ui_li_gen_]').css({marginBottom:'20px'}) 
+       .html('<img src="/images/shared/linkedin-register-large.png" height="31" width="200" border="0" />');    
+  }
+</script>
 <div id="header"></div>
 <a href="http://people.ucsc.edu/~mpafford/newuser.html"><button>New User</button></a>
-<script type="in/Login">
-</script>
 </body>
