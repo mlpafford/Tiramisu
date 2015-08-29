@@ -22,7 +22,7 @@ button{
   background-color: #8C4795;
   padding: 12px;
   border: solid white 3px;
-  border-radius: 20px;
+  border-radius: 5px;
   color: white;
   font-size: 18px;
   font-family: 'Droid Sans', sans-serif;
@@ -33,11 +33,42 @@ button:hover{
   color: #8C4795;
 }
 
+#profile{
+  margin: 25px 10px 75px 50px;
+  float:left;
+  width: 40%;
+  background-color: white;
+  background-height: 350px
+  line-height: 150%;
+  color: #8C4795;
+  font-size: 20px;
+  font-family: 'Droid Sans', sans-serif;
+}
+#profile:hover{
+  border: solid white 8px;
+}
+
+#match{
+  margin: 25px 50px 75px 10px;
+  float:right;
+  width: 40%;
+  background-color: white;
+  background-height: 350px
+  line-height: 150%;
+  color: #8C4795;
+  font-size: 20px;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+#match:hover{
+  border: solid white 8px;
+}
+
 #footer{
   top-margin: 200px;
   padding: 30px;
-  color: white;
+  background-color:white;
+  color: #8C4795;
   text-align: center;
   font-size: 12px;
 }
-~              
