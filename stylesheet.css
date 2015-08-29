@@ -1,13 +1,18 @@
 #header{
   margin: 0 auto;
-  height: 100px;
+  padding: 60px;
+  background-color: white;
+  background-size: 340px 75px;
+  background-image: url(https://40.media.tumblr.com/e19a3c761122d15e8bad7ffe0344e68b/tumblr_ntueerC4PP1r7oc5oo1_1280.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 body{
   margin: 0 auto;
   background-color: #8C4795;
   text-align: center;
-  line-height: 150%;
+  line-height: 165%;
   color: white;
   font-size: 18px;
   font-family: 'Droid Sans', sans-serif;
@@ -16,8 +21,8 @@ body{
 button{
   background-color: #8C4795;
   padding: 12px;
-  border-color: white;
-  border-radius: 25px;
+  border: solid white 3px;
+  border-radius: 20px;
   color: white;
   font-size: 18px;
   font-family: 'Droid Sans', sans-serif;
@@ -28,3 +33,11 @@ button:hover{
   color: #8C4795;
 }
 
+#footer{
+  top-margin: 200px;
+  padding: 30px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+~              
