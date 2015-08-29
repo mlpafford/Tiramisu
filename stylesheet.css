@@ -1,0 +1,30 @@
+#header{
+  margin: 0 auto;
+  height: 100px;
+}
+
+body{
+  margin: 0 auto;
+  background-color: #8C4795;
+  text-align: center;
+  line-height: 150%;
+  color: white;
+  font-size: 18px;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+button{
+  background-color: #8C4795;
+  padding: 12px;
+  border-color: white;
+  border-radius: 25px;
+  color: white;
+  font-size: 18px;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+button:hover{
+  background-color: white;
+  color: #8C4795;
+}
+

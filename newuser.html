@@ -1,0 +1,28 @@
+<html>
+<head>
+     <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<style>
+</style>
+</head>
+<div id ="header"></div>
+<body>
+Make a profile!<br>
+This will help match you to other Tiramisu members interested in your subjects.<br>
+All fields are optional except for your user type.<br>
+However, the more information you give, the more matches you will have in the future!<br>
+<form method=“POST” action="process.php">
+<select name=“User">
+     <option value = “student”>Student</option>
+     <option value = “professional”>Professional</option>
+     <option value = “transitioning”>Transitioning</option>
+</select><br>
+Your Location
+<input type="text" name="location"><br>
+Location of Interest
+<input type="text" name="interest"><br>
+Your Areas of Expertise
+<input type="text" name="skills"><br>
+<button type="submit" value='submit'>Make my Profile!</button>
+</body>
+</html>
