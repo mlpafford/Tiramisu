@@ -31,6 +31,9 @@ button{
   background-color: #8C4795;
   padding: 0px;
   border: solid white 3px;
+  boarder-radius: 50px;
+  width: 20px;
+	height: 20px;
   color: white;
 }
 
