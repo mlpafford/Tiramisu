@@ -2,8 +2,8 @@
   margin: 0 auto;
   padding: 60px;
   background-color: white;
-  background-size: 340px 75px;
-  background-image: url(https://40.media.tumblr.com/e19a3c761122d15e8bad7ffe0344e68b/tumblr_ntueerC4PP1r7oc5oo1_1280.png);
+  background-size: 370px 75px;
+  background-image: url("https://41.media.tumblr.com/7a409e2f49a473d093c611b69fba7c89/tumblr_ntuxpbBb4L1sc8ikoo1_540.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -27,15 +27,6 @@ button{
   font-size: 18px;
   font-family: 'Droid Sans', sans-serif;
 }
-.checkbox{
-  background-color: #8C4795;
-  padding: 0px;
-  border: solid white 3px;
-  boarder-radius: 50px;
-  width: 20px;
-	height: 20px;
-  color: white;
-}
 
 button:hover{
   background-color: white;
@@ -53,6 +44,7 @@ button:hover{
   font-size: 20px;
   font-family: 'Droid Sans', sans-serif;
 }
+
 #profile:hover{
   border: solid white 8px;
 }
@@ -74,24 +66,14 @@ button:hover{
 }
 
 #footer{
-  top-margin: 200px;
+  margin: 0 auto;
+  max-size: 150px;
   padding: 30px;
-  background-color:white;
+  background-color: white;
   color: #8C4795;
   text-align: center;
   font-size: 12px;
-}
-
-body{
-  margin      : 0;
-  padding     : 1.5em;
-  font-family : sans-serif;
-  line-height : 1.5;
-}
-
-p{
-  margin  : 0 0 1.5em;
-  padding : 0;
+  color: SteelBlue;
 }
 
 .starRating:not(old){
@@ -114,7 +96,6 @@ p{
   background      : url('http://dreamself.me/share/GreyStarM.png');
   background-size : contain;
 }
-
 .starRating:not(old) > label:before{
   content         : '';
   display         : block;
