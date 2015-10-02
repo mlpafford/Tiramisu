@@ -7,22 +7,32 @@
 </head>
 <div id ="header"></div>
 <body>
-Make a profile!<br>
-This will help match you to other Tiramisu members interested in your subjects.<br>
-All fields are optional except for your user type.<br>
-However, the more information you give, the more matches you will have in the future!<br>
-<form method=“POST” action="process.php">
-<select name=“User">
+<br>
+<br>
+        <div class="jumbotron">
+                <div class="container">
+                        <h1>Some preliminary information before we get you matched... </h1>
+                </div>
+        </div>
+
+<br>
+Help us put you with other Tiramisu members interested in your subjects.<br>
+<form>
+Temporary User Status
+<select style="color: white; background-color: #8C4795"name =“User">
      <option value = “student”>Student</option>
      <option value = “professional”>Professional</option>
      <option value = “transitioning”>Transitioning</option>
 </select><br>
-Your Location
-<input type="text" name="location"><br>
-Location of Interest
-<input type="text" name="interest"><br>
-Your Areas of Expertise
-<input type="text" name="skills"><br>
-<button type="submit" value='submit'>Make my Profile!</button>
+Location
+<input type="text" style="border: solid white 2px; color: white; background-color: #8C4795" name="location"><br>
+Skill Set
+<input type="text" style="border: solid white 2px; color: white; background-color: #8C4795" name="skills"><br>
+</form>
+<br>
+<a href="http://people.ucsc.edu/~mpafford/ask.html"><button>Make my Profile!</button></a>
+<br>
+<br>
 </body>
-</html>
+<div id="footer">
+</div>
